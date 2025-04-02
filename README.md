@@ -14,7 +14,7 @@
 
 ## DESCRIPTION OF THE TASK 
 
-BUILD A TOOL TO MONITOR CHANGES IN FILES BY CALCULATING AND COMPARING HASH VALUES
+#BUILD A TOOL TO MONITOR CHANGES IN FILES BY CALCULATING AND COMPARING HASH VALUES
 A PYTHON SCRIPT USING LIBRARIES LIKE HASHLIB TO ENSURE FILE INTEGRITY 
 
 Introduction
@@ -95,4 +95,11 @@ While SHA-256 is secure, some users may prefer alternative algorithms such as MD
 
 4. Limited to Local Files
 It only works on local files and does not support monitoring files over network drives, cloud storage, or external devices.
+
+#OUTPUT
+
+![Image](https://github.com/user-attachments/assets/29ec7517-4d95-4e8b-a5cd-28fa787925cc)
+
+<img width="562" alt="Image" src="https://github.com/user-attachments/assets/fd501ed5-88c0-407a-bd9c-f84d03ddee4d" />
+
 
