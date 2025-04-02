@@ -33,12 +33,12 @@ By implementing this tool, users can determine whether a file has been modified,
 The primary function of this tool is to detect changes in a specific file by computing its hash value and comparing it with previously stored hash records. It helps users identify unauthorized modifications, accidental changes, or deletions.
 
 2. SHA-256 Hash Calculation
+  It uses the SHA-256 cryptographic hash function, which is widely used for data integrity verification. Even the smallest change in a file results in a completely different hash, making it a reliable method for detecting alterations.
 
-
-3. JSON-Based Storage
+4. JSON-Based Storage
 To maintain a history of file integrity, the tool stores hash values in a JSON file (file_hash.json). This enables it to detect modifications over multiple executions without requiring a database or complex storage system.
 
-4. Status Reporting
+5. Status Reporting
 To make the results clear and user-friendly, the tool provides four possible status messages when checking a file:
 
 "No Changes" – The file remains unchanged since the last scan.
